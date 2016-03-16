@@ -27,10 +27,10 @@ namespace Kombajn
             {
                 if (checkedListBox1.Items[i].ToString() == ItemName)
                 {
-                    return 
+                    return true;
                 }
             }
-            return true;
+            return false;
         }
         public void LoadList()
         {
@@ -38,8 +38,9 @@ namespace Kombajn
             {
                 //MessageBox.Show(ObjectCol.Tables[0].Rows[i][ColIndex].ToString());
 
-                if (FindItem(ObjectCol.Tables[0].Rows[i][ColIndex].ToString()))
+                if (!FindItem(ObjectCol.Tables[0].Rows[i][ColIndex].ToString()))
                 {
+                    checkedListBox1.Items.Add(ObjectCol.Tables[0].Rows[i][ColIndex].ToString());
                 }
             }
         }

@@ -16,3 +16,13 @@ C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Correction.re
 C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
 C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
 C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.exe.config
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.exe
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.pdb
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.exe
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.pdb
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csprojResolveAssemblyReference.cache
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Correction.resources
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
