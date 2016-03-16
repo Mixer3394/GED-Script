@@ -1,0 +1,18 @@
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\bin\Debug\Kombajn.exe.config
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\bin\Debug\Kombajn.exe
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\bin\Debug\Kombajn.pdb
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.csprojResolveAssemblyReference.cache
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.exe
+c:\users\karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.pdb
+C:\Users\Karol\documents\visual studio 2015\Projects\Kombajn\Kombajn\obj\Debug\Kombajn.Correction.resources
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\bin\Debug\Kombajn.exe.config
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.exe
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.pdb
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.csprojResolveAssemblyReference.cache
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Correction.resources
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
+C:\Users\Karol\OneDrive\Projekty\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
