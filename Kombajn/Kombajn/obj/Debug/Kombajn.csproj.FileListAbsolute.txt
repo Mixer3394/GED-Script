@@ -26,3 +26,6 @@ C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Cor
 C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
 C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
 C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.exe.config
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.exe
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.pdb
