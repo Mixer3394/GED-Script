@@ -41,3 +41,10 @@ C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Cor
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.ResolveComReference.cache
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.xml
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\GemBox.Spreadsheet.dll
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\GemBox.Spreadsheet.xml
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\EPPlus.dll
+C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\EPPlus.xml
