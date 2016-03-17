@@ -47,7 +47,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(331, 174);
+            this.button1.Location = new System.Drawing.Point(287, 174);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(75, 23);
             this.button1.TabIndex = 1;
@@ -66,7 +66,7 @@
             // 
             // textBox_new
             // 
-            this.textBox_new.Location = new System.Drawing.Point(189, 174);
+            this.textBox_new.Location = new System.Drawing.Point(168, 174);
             this.textBox_new.Name = "textBox_new";
             this.textBox_new.Size = new System.Drawing.Size(100, 20);
             this.textBox_new.TabIndex = 3;
@@ -90,7 +90,7 @@
             // 
             // button_wykReg
             // 
-            this.button_wykReg.Location = new System.Drawing.Point(354, 106);
+            this.button_wykReg.Location = new System.Drawing.Point(167, 73);
             this.button_wykReg.Name = "button_wykReg";
             this.button_wykReg.Size = new System.Drawing.Size(122, 23);
             this.button_wykReg.TabIndex = 6;

@@ -82,61 +82,34 @@ namespace Kombajn
             int a = 0;
             CountRegText = -1;
             RegText = new string[100000, 3];
-           // try
-           // {
                 string line;
 
-                // Read the file and display it line by line.
                 StreamReader file = new StreamReader(Br);
                 while ((line = file.ReadLine()) != "END")
                 {
-                // Console.WriteLine(line);
                 a++;
-                    //MessageBox.Show(line + "load regex");
-                        // Read the stream to a string, and write the string to the console.
-                        //MessageBox.Show(line);
                         if (a == 1)
                         {
-                            //MessageBox.Show(line + "load regex");
                             CountRegText++;
                             RegText[CountRegText, 0] = line;
-                            //a = 1;
-                            //CountRegText++;
                         }
                         else if (a == 2)
                         {
-                            //MessageBox.Show(line + "load regex");
                             RegText[CountRegText, 1] = line;
-                            //a = 2;
-                            //CountRegText++;
                         }
                         else if (a == 3)
                         {
                             a = 0;
                             
                         }
-                       // a++;
-                        //CountRegText++;
                     }
                     file.Close();
 
-            // Suspend the screen.
-            //Console.ReadLine();
-           // MessageBox.Show("długość regexa za while: " + CountRegText);
-                
-            //}
-            //catch (Exception e)
-           // {
-                //Console.WriteLine("The file could not be read:");
-               // MessageBox.Show("to jestem?");
-             //   MessageBox.Show(e.Message);
-           // }
         }
 
         public string StartAnalizeRegex(string Value)
         {
             string result = Value;
-            //MessageBox.Show(CountRegText.ToString() + "   długość regexa   ");
             for (int i = 0; i <= CountRegText; i++)
             {
 
@@ -144,22 +117,13 @@ namespace Kombajn
                 string input = result;
                 string pattern = RegText[i,0];
                 string replacement = RegText[i, 1];
-                //MessageBox.Show("wartość wejściowa: " + input);
-                //MessageBox.Show(pattern + "regex wejściowy");
-                //MessageBox.Show(replacement + "regex wyjściowy");
-                //MessageBox.Show("po regexie");
-                //Regex rgx = new Regex(pattern);
                 result = Regex.Replace(input, pattern, replacement);
-                //MessageBox.Show("Wartość po podmianie w pętli: " + result);
             }
-            //Console.WriteLine("Original String: {0}", input);
-            //MessageBox.Show("Wartość po podmianie: " + result);
             return result;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            // MessageBox.Show(ObjectCol.Tables[0].Columns[ColIndex].ToString());
             if (textBox_new.Text != "")
             {
                 NewRekord();

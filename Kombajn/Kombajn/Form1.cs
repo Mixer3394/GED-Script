@@ -21,7 +21,7 @@ namespace Kombajn
         }
 
         DataSet DataExcel;
-
+        Excel excel = new Excel();
 
         private void button_browse_Click(object sender, EventArgs e)
         {
@@ -32,8 +32,8 @@ namespace Kombajn
 
         private void button_show_Click(object sender, EventArgs e)
         {
-            Excel excel = new Excel();
-
+            //Excel excel = new Excel();
+            comboBox1.Items.Clear();
             if (textselect.Text != "")
             {
                 //MessageBox.Show("Uruchamianie read-excela");
@@ -68,9 +68,37 @@ namespace Kombajn
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Excel excel = new Excel();
-            excel.WriteExcelFile(textselect.Text);
+            excel.WriteExcelFile(dataGridView1, textselect.Text);
         }
 
+        private void button_null_Click(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedIndex > -1)
+            {
+                if (textBox_null.Text != "")
+                {
+                    for (int i = 0; i < (dataGridView1.RowCount-1); i++)
+                    {
+                        //try
+                        //{
+                        //MessageBox.Show(dataGridView1[comboBox1.SelectedIndex, i].Value.ToString());
+                            if (dataGridView1[comboBox1.SelectedIndex, i].Value.ToString() == "")
+                            {
+
+                                dataGridView1[comboBox1.SelectedIndex, i].Value = textBox_null.Text;
+                            }
+                        //}
+                        //catch (Exception e)
+                        //{
+                        //    MessageBox.Show(e.Message);
+                        //}
+                        
+
+                    }
+                }
+                else MessageBox.Show("Podaj nową wartość");
+            }
+            else MessageBox.Show("Wybierz kolumnę do poprawy");
+        }
     }
 }
