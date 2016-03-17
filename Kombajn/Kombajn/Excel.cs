@@ -21,34 +21,31 @@ namespace Kombajn
         }
 
 
-        private void WriteExcelFile(string brows)
+        public void WriteExcelFile(string brows)
         {
-            string connectionString = GetConnectionString(brows);
+            string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=" + brows + ";Extended Properties = \"Excel 8.0;HDR=Yes;IMEX=1\"";
+            string xls = @"ZATR0701$";
 
-            using (OleDbConnection conn = new OleDbConnection(connectionString))
-            {
-                conn.Open();
-                OleDbCommand cmd = new OleDbCommand();
-                cmd.Connection = conn;
+            OleDbConnection oleDBConnection = new OleDbConnection(connectionString);
+            OleDbDataAdapter adapter = new OleDbDataAdapter("SELECT Stanowisko FROM [" + xls + "]", oleDBConnection);
+            DataSet dataset = new DataSet();
+            adapter.Fill(dataset);
 
-                cmd.CommandText = "CREATE TABLE [table1] (id INT, name VARCHAR, datecol DATE );";
-                cmd.ExecuteNonQuery();
+            adapter.UpdateCommand = new OleDbCommand("UPDATE [" + xls + "] SET Stanowisko = 'Brygadzista'" +
+                                                        " WHERE Stanowisko = 'Brygardzista'", oleDBConnection);
 
-                cmd.CommandText = "INSERT INTO [table1](id,name,datecol) VALUES(1,'AAAA','2014-01-01');";
-                cmd.ExecuteNonQuery();
+            // For Updates, we need to provide the old values so that we only update the corresponding row.
+            adapter.UpdateCommand.Parameters.Add("@OldStanowisko", OleDbType.VarChar, 255, "Stanowisko").SourceVersion = DataRowVersion.Original;
+            //adapter.UpdateCommand.Parameters.Add("@OldLastName", OleDbType.Char, 255, "LastName").SourceVersion = DataRowVersion.Original;
+            //adapter.UpdateCommand.Parameters.Add("@OldAge", OleDbType.Char, 255, "Age").SourceVersion = DataRowVersion.Original;
+            adapter.Update(dataset);
 
-                cmd.CommandText = "INSERT INTO [table1](id,name,datecol) VALUES(2, 'BBBB','2014-01-03');";
-                cmd.ExecuteNonQuery();
-
-                cmd.CommandText = "INSERT INTO [table1](id,name,datecol) VALUES(3, 'CCCC','2014-01-03');";
-                cmd.ExecuteNonQuery();
-
-                cmd.CommandText = "UPDATE [table1] SET name = 'DDDD' WHERE id = 3;";
-                cmd.ExecuteNonQuery();
-
-                conn.Close();
-            }
         }
+
+
+
+
+
 
         public DataSet ReadExcelFile(string brows)
         {
