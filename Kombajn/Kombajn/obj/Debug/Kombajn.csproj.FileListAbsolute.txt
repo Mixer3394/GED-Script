@@ -29,3 +29,15 @@ C:\Users\Karol\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csp
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.exe.config
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.exe
 C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.pdb
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.exe
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Kombajn.pdb
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.dll
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.dll
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Common.v4.0.Utilities.xml
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\bin\Debug\Microsoft.Office.Tools.Excel.v4.0.Utilities.xml
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csprojResolveAssemblyReference.cache
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.ResolveComReference.cache
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Correction.resources
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Form1.resources
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.Properties.Resources.resources
+C:\Users\Kamil\Documents\GitHub\GED-Script\Kombajn\Kombajn\obj\Debug\Kombajn.csproj.GenerateResource.Cache
